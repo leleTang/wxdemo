@@ -1,0 +1,81 @@
+.body{
+  width: 100%;
+  overflow: hidden;
+}
+.diary-option {
+  display: flex;
+  padding: 10px;
+}
+
+.diary-option navigator .btn {
+  margin-right: 5px;
+}
+
+.list {
+  padding: 10px;
+  border-bottom: 1px solid #f1eff2;
+  position: relative;
+  height:15vw;
+}
+
+.dateTime {
+  display: flex;
+}
+
+.dateDay {
+  color: #b0adb1;
+  font-size: 8vw;
+  line-height: 8vw;
+}
+
+.date {
+  color: #ccc9cd;
+  display: block;
+}
+
+.day {
+  color: #aca9ac;
+  display: block;
+}
+
+.day-and-date {
+  font-size: 3vw;
+  margin-left: 2vw;
+}
+
+.content {
+  margin-top: 1.5vw;
+}
+
+.article_title {
+  color: #716f72;
+}
+
+.inner {
+  position: absolute;
+  top: 8px;
+}
+
+.inner.del {
+  background-color: #e64340;
+  width: 180rpx;
+  text-align: center;
+  z-index: 4;
+    right: 0;
+  color: #fff;
+  top: 10px;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner.txt{
+    background-color: #fff;
+    width: 100%;
+    z-index: 5;
+    padding:0 10rpx;
+    transition: left 0.2s ease-in-out;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}

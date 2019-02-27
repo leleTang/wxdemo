@@ -1,0 +1,4 @@
+<!-- pages/user/index.wxml -->
+<view class='user-frame'>
+<image class='load_pic' src='../../public/img/load.gif'></image>
+</view>

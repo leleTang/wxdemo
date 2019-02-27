@@ -1,0 +1,48 @@
+/* pages/user/login.wxss */
+
+.main {
+  padding: 5vw;
+}
+
+.input-view {
+  display: flex;
+  border-bottom: 0.2vw solid #e7e7e7;
+  padding: 5vw;
+}
+
+input {
+  margin-left: 2vw;
+}
+
+.view-img {
+  width: 7vw;
+  height: 7vw;
+  background-size: 100%;
+}
+
+.img-view {
+  text-align: center;
+}
+
+.img-view image {
+  width: 43vw;
+  height: 43vw;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+.btn-blue {
+  border-color: #669dfe;
+  background-color: #669dfe;
+  color: #fff;
+}
+.btn-pink{
+  border-color: #FF9192;
+  background-color: #FF9192;
+  color: #fff;
+}
+.mt5{
+  margin-top:5vw;
+}

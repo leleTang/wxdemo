@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="myView">
+    <switch checked bindchange="switch1Change"/>
+    <switch bindchange="switch2Change"/>
+</view>

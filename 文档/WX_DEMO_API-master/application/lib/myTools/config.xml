@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <baseLogUrl>/../../../ServerData/APILog/BaseLog</baseLogUrl>
+    <debugLogUrl>/../../../ServerData/APILog/DebugLog</debugLogUrl>
+    <toolsLogUrl>/../../../ServerData/APILog/ToolsLog</toolsLogUrl>
+</config>
+        <!--基本Log打印日志地址-->
+        <!--DeBugLog打印地址-->
+        <!--ToolsLog小程序自己的日志地址-->
+        <!--这里是一个通用的配置文件，写成了XML文件的形式，方便配置和加载-->

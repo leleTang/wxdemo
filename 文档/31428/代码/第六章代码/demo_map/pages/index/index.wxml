@@ -1,0 +1,8 @@
+
+<!--index.wxml-->
+<view class="container">
+  <map id="myMap" show-location />
+  <button bindtap="getCenterLocation">获取位置</button>
+  <button bindtap="moveToLocation">移动位置</button>
+  <button bindtap="showBigMap">查看大地图</button>
+</view>

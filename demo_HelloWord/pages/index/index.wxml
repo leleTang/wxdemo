@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="myView">
+    <audio poster='{{poster}}' name='{{name}}' author='{{author}}' src='src' id='myAudio' controls loop></audio>
+  </view>
+  <view class="myBtn">
+   <button class='btn' type='primary' bindtap='audioPlay'>播放</button>
+   <button class='btn' type='warn' bindtap='audioPause'>暂停</button>
+   <button class='btn' type='default' bindtap='audio30'>跳至30</button>
+  </view>
+</view>

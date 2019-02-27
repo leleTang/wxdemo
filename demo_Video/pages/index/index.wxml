@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="myView">
+ <video id='myVideo' src='http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4' binderror="videoErrorCallback" danmu-list='{{danmuList}}' enable-danmu danmu-btn controls></video>
+ <view class='myDanmu'>
+  <input class='DanmuInput' bindblur='bindInputBlur' />
+  <button class='SendDanmu' bindtap='bindSendDanmu'>发送弹幕</button>
+ </view>
+</view>

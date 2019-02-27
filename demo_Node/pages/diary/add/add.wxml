@@ -1,0 +1,28 @@
+<!-- pages/diary/add/add.wxml -->
+<view class='add-view'>
+<view class='add-title'>
+  <text>添加日记</text>
+</view>
+  <form bindsubmit='formSubmit'>
+    <view class="section">
+      <view class="section__title">日记标题:</view>
+      <input name="title" class='article_title' placeholder='请输入日记标题'></input>
+    </view>
+    <view class="section section-flex">
+      <view class="section__title">是否公开:</view>
+      <switch name="status" />
+    </view>
+    <view class='section'>
+      <picker name='date' mode='date' value='{{date}}' bindchange='bindDateChange'>
+        <view class='picker'>
+          选择日期<text class='date-text'>{{date}}</text>
+        </view>
+      </picker>
+    </view>
+    <view class='section '>
+      <view class="section__title">日记内容:</view>
+      <textarea name='text' bindblur="bindTextAreaBlur" auto-height/>
+    </view>
+    <button size='mini' form-type='submit' type="primary">增加新日记</button>
+  </form>
+</view>

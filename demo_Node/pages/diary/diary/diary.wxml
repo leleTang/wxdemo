@@ -1,0 +1,12 @@
+<!-- pages/diary/diary/diary.wxml -->
+<view class='article-frame'>
+  <view class='article-title'>
+    <text>{{article.title}}</text>
+  </view>
+  <view class='article-date'>
+    <text>{{article.date}}</text>
+  </view>
+  <view class='article-text'>
+    <text>{{article.text}}</text>
+  </view>
+</view>

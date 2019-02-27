@@ -1,0 +1,8 @@
+.myView{
+  padding: 10px;
+  padding-top: 10%;
+}
+
+.title{
+  background-color: lemonchiffon
+}

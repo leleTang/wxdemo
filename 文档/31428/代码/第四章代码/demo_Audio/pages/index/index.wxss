@@ -1,0 +1,14 @@
+/**index.wxss**/
+.myView{
+  padding: 10%;
+  padding-top: 40%
+}
+
+.myBtn{
+  padding: 10px
+}
+.btn{
+  width: 30%;
+  float: left;
+  margin-left: 10px
+}

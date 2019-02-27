@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view animation="{{animationData}}" style="background:red;height:100rpx;width:100rpx"></view>
+<button bindtap="TranslateLeft">左</button>
+<button bindtap="TranslateRight">右</button>
+<button bindtap="rotateAndScale">旋转</button>

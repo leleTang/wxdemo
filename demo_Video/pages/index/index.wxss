@@ -1,0 +1,23 @@
+/**index.wxss**/
+.myView{
+  padding: 10px;
+  padding-top:30%;
+}
+video{
+  width: 100%;
+}
+.myDanmu{
+  padding:10px;
+}
+.DanmuInput{
+  float: left;
+  width: 50%;
+  height:30px;
+  background-color: lightgray;
+}
+.SendDanmu{
+  float: left;
+  width: 40%;
+  font-size: 12px;
+  margin-left: 5px;
+}

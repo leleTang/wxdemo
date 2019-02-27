@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class='myView'>
+  <view class='myBackGround'>
+    <input placeholder="这个是默认显示"/>
+  </view>
+  <view class='myBackGround2'>
+    <input  maxlength="1" placeholder="最大输入长度1" />
+  </view>
+  <view class='myBackGround'>
+    <view class="section__title">输入的是：{{inputValue}}</view>
+    <input  bindinput="bindKeyInput" placeholder="输入同步到view中" />
+  </view>
+    <view class='myBackGround2'>
+    <input password type="number"/>
+  </view>
+  <view class='myBackGround'>
+    <input placeholder-style="color:red" placeholder="占位符字体是红色的" />
+  </view>
+</view>
+
+

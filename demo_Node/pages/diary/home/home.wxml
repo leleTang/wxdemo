@@ -1,0 +1,30 @@
+<!-- pages/index/home/home.wxml -->
+<view class='body'>
+  <view class='diary-option'>
+    <navigator url="../add/add" hover-class="navigator-hover">
+      <button class="btn" size="mini" type="primary">新增文章</button>
+    </navigator>
+    <navigator url="../manager/manager" hover-class="navigator-hover">
+      <button class="btn" size="mini" type="default">管理文章</button>
+    </navigator>
+  </view>
+  <view class="main">
+    <view class="list" wx:for="{{items}}" wx:key="{{index}}">
+      <navigator url="../diary/diary?id={{item.id}}" bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index="{{index}}" style="{{item.txtStyle}}" class="inner txt" hover-class='a'>
+        <view class='dateTime'>
+          <text class='dateDay'>{{item.dateDay}}</text>
+          <view class='day-and-date'>
+            <text class='day'>{{item.day}}</text>
+            <text class="date">{{item.date}}</text>
+          </view>
+        </view>
+        <view class='content'>
+          <text class="article_title">{{item.title}}</text>
+        </view>
+      </navigator>
+      <!--这里是左滑按钮部分----start-->
+      <view data-index="{{index}}" bindtap="delItem" data-id="{{item.id}}" class="inner del">删除</view>
+         <!--这里是左滑按钮部分----end-->
+    </view>
+  </view>
+</view>

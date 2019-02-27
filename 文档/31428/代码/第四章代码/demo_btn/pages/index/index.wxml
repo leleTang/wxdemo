@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view>
+  <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> default </button>
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> primary </button>
+  <button type="warn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="warn"> warn </button>
+  <button type="default" size="{{miniSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> minidefault </button>
+  <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{trueDisabled}}" bindtap="default" hover-class="other-button-hover"> Disable </button>
+  <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{truePlain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> truePlain </button>
+  <button type="default" size="{{defaultSize}}" loading="{{trueLoading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> loading </button>
+</view>

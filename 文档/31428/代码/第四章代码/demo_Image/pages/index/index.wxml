@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="myView">
+  <view class="myDemo">
+    <view wx:for="{{array}}" wx:for-item="item">
+      <view>{{item.text}}</view>
+      <view class="myPic">
+        <image style="width: 200px; height: 200px; background-color: black;" mode="{{item.mode}}" src="{{src}}"></image>
+      </view>
+    </view>
+  </view>
+</view>

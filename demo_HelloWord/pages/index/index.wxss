@@ -1,0 +1,13 @@
+.myView {
+  padding: 5px;
+  padding-top: 40%;
+}
+.myBtn{
+  padding: 5px;
+  width: 100%;
+}
+.btn{
+  width: 30%;
+  float: left;
+  margin-left: 8px;
+}

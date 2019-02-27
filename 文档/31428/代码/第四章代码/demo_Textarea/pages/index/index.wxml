@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="myView">
+  <textarea bindfocus="bindGetFocus" bindblur="bindLostFocus" bindlinechange="bindLineChanged" auto-height placeholder="文本框" />
+</view>

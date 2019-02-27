@@ -1,0 +1,4 @@
+/**index.wxss**/
+.myView{
+  padding: 10%
+}

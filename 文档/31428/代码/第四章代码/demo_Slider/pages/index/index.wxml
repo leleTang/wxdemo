@@ -1,0 +1,27 @@
+<view class="myView">
+  <text>禁用</text>
+  <view>
+    <slider disabled/>
+  </view>
+</view>
+
+<view class="myView">
+  <text>显示当前value，设置step，滑动时会步进为5</text>
+  <view>
+    <slider step="5" show-value/>
+  </view>
+</view>
+
+<view class="myView">
+  <text>显示当前value并且初始化值80</text>
+  <view>
+    <slider value="80" show-value/>
+  </view>
+</view>
+
+<view class="myView">
+  <text>设置最小/最大值</text>
+  <view>
+    <slider min="50" max="200" show-value/>
+  </view>
+</view>

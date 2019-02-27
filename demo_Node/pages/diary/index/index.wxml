@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="main">
+  <view class='main_logo'>
+    <text class='main_text'>DIARY</text>
+  </view>
+</view>

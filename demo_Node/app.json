@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/diary/index/index",
+    "pages/diary/home/home",
+    "pages/diary/diary/diary",
+    "pages/diary/add/add",
+    "pages/diary/manager/manager",
+    "pages/user/index/index",
+    "pages/user/login/login",
+    "pages/user/register/register",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Diary",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,10 @@
+<text>任意状态的进度条并且在右侧显示百分百</text>
+<progress percent="20" show-info />
+<text>宽度为12px的进度条</text>
+<progress percent="20" stroke-width="12"/>
+<text>任意颜色的进度条（red）</text>
+<progress percent="60" color="red" />
+<text>任意颜色的进度条（RGB值）</text>
+<progress percent="60" color="#000" />
+<text>动态达到100的进度条</text>
+<progress percent="100" active />

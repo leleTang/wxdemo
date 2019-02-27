@@ -1,0 +1,50 @@
+.add-title {
+  font-size: 6vw;
+  text-align: center;
+  color: #333;
+}
+
+.add-view {
+  padding: 10px;
+}
+
+.section {
+  margin: 1vw 0;
+}
+
+.section input {
+  height: 40px;
+}
+
+.section textarea {
+  min-height: 40px;
+}
+
+.section .section__title, .section picker {
+  color: #76848f;
+}
+
+.section picker {
+  width: 100%;
+}
+
+.section input, .section textarea {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #9aabb5;
+  border-radius: 5px;
+  width:94%;
+}
+
+.section input, .section textarea{
+  color: #242424;
+  margin: 3vw 0;
+}
+
+.picker .date-text,.section switch  {
+  margin-left: 10px;
+}
+
+.section-flex {
+  display: flex;
+}

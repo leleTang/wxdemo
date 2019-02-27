@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <form bindreset="formSubmit" bindreset="formRest">
+    <input name="input" placeholder="在此输入" />
+    <button type="primary" form-type="submit">提交</button>
+    <button formType="reset">重置</button>
+  </form>
+</view>

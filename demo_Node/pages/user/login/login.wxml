@@ -1,0 +1,25 @@
+<!-- pages/user/login.wxml -->
+<view class='main'>
+  <view class='img-view'>
+    <image src='../../public/img/logo.png'></image>
+  </view>
+  <form bindsubmit='formSubmit' bindreset='formReset'>
+    <view class='main_text'>
+
+      <view class='input-view'>
+        <image class='view-img' src='../../public/img/textbox_icon_user.png'></image>
+        <input name="username" class='input' placeholder='用户名' />
+      </view>
+      <view class='input-view'>
+        <image class='view-img' src='../../public/img/textbox_icon_password.png'></image>
+        <input name="password" class='input' placeholder='密码' />
+      </view>
+      <view class="mt5">
+        <button class='btn btn-blue' form-type='submit'>登录</button>
+      </view>
+      <view class="mt5">
+        <button class='btn btn-pink' bindtap='re_Register'>注册</button>
+      </view>
+    </view>
+  </form>
+</view>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function myFunction() {
+            var data = document.getElementById('data').value;
+            if (data > 10 && data < 20) {
+                alert("输入数字大于10,但是不大于20")
+            } else if (data > 20) {
+                alert("输入数字大于20")
+            } else {
+                alert("输入数字小于10")
+            }
+        }
+    </script>
+</head>
+<body>
+<label>和10进行数值对比</label>
+<input type="text" id="data" value="">
+<button onclick="myFunction()">获取输入的值</button>
+</body>
+</html>

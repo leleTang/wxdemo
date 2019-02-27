@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="btn-area">
+  <navigator url="test" hover-class="navigator-hover">跳转到新页面</navigator>
+  <navigator url="test" redirect hover-class="other-navigator-hover">在当前页打开</navigator>
+</view>

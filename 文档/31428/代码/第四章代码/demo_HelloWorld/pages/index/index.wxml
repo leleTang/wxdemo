@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text style="color:red">Hello WX</text>
+  </view>
+</view>

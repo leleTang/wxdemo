@@ -1,0 +1,21 @@
+/**index.wxss**/
+
+.main {
+  position: absolute;
+  background: #99f;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+}
+
+.main_logo {
+  position: absolute;
+  bottom: 3vw;
+  right: 4vw;
+}
+
+.main_text {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+}

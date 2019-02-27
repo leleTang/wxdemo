@@ -1,0 +1,29 @@
+.article-frame {
+  padding: 10px;
+  
+  background-image: url('http://img.hb.aicdn.com/eea018915c8e156e070bfd46a196acae23edc7c6d18b-7t3JaX_fw658');
+  height: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.article-title {
+  font-size: 6vw;
+  color: #fff;
+}
+
+.article-date {
+  font-size: 3vw;
+  color: #aca9ac;
+  padding: 5px 0 10px;
+  border-bottom: 1px solid rgb(155, 150, 150);
+}
+
+.article-text {
+  padding-top: 10px;
+  font-size: 4vw;
+  color: #fff;
+}

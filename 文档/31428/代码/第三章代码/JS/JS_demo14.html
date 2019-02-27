@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function myFunction(data){
+            if(data==1){
+                return "执行方法参数为1";
+            }else if(data==2){
+                return "执行方法参数为2";
+            }
+        }
+        function btn_onclick(data){
+            alert(myFunction(data));
+        }
+    </script>
+</head>
+<body>
+<button onclick="btn_onclick(1)">参数为1</button>
+<button onclick="btn_onclick(2)">参数为2</button>
+</body>
+</html>

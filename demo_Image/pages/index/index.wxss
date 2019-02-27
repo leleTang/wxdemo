@@ -1,0 +1,10 @@
+/**index.wxss**/
+.myView{
+  padding:20px;
+}
+.myDemo{
+  font-size: 14px;
+}
+.myPic{
+  padding: 13%;
+}

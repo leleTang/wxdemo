@@ -1,0 +1,6 @@
+<!-- pages/diary/manager/manager.wxml -->
+<view class='manager-view'>
+<view class='list'>
+
+</view>
+</view>

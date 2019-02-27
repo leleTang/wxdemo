@@ -1,0 +1,13 @@
+
+<!--index.wxml-->
+<view class="container">
+  <text>language:{{phonedata.language}}</text>
+  <text>model:{{phonedata.model}}</text>
+  <text>pixelRatio:{{phonedata.pixelRatio}}</text>
+  <text>platform：{{phonedata.platform}}</text>
+  <text>system：{{phonedata.system}}</text>
+  <text>version：{{phonedata.version}}</text>
+  <text>windowHeight：{{phonedata.windowHeight}}</text>
+  <text>windowWidth：{{phonedata.windowWidth}}</text>
+  <text>line:{{line}}</text>
+</view>
